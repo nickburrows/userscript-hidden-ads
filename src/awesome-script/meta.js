@@ -1,12 +1,11 @@
 // ==UserScript==
-// @name        My Script
-// @namespace   Violentmonkey Scripts
-// @description This is a userscript.
-// @match       *://*/*
-// @grant       GM_addStyle
-// @version     0.0.0
+// @name        隱藏特定廣告
+// @namespace   http://tampermonkey.net/
+// @description 隱藏頁面上的特定廣告元素
+// @match       *://eshop-prices.com/*
+// @grant       none
+// @version     process.env.VERSION
 // @author      process.env.AUTHOR
-// @require     https://cdn.jsdelivr.net/combine/npm/@violentmonkey/dom@2,npm/@violentmonkey/ui@0.7
 // ==/UserScript==
 
 /**
